@@ -1,0 +1,15 @@
+	body{background-color: #fff;}
+	.header{height: auto;background-color: #fff;border-bottom: 0.05rem solid #EEEEEE;position: relative;}
+	.header h5{text-align: center;font-size: 1.14rem;line-height: 2.78rem;color: #171717;}
+	.header a.back{color: #171717;position: absolute;top: 0;line-height: 2.78rem;font-size: 1.14rem;left: 0.3rem;}
+	.header h6{font-size: 0.81rem;color: #171717;line-height: 2.78rem;position: absolute;right: 0.5rem;top: 0;}
+
+	.header ul{display: flex;justify-content: center;margin-top: 0.4rem;}
+	.header ul li{width: 18%;margin: 0 2%;text-align: center;height: 3.1rem;line-height: 3.3rem;font-size: 1rem;color: #323232;background-color: #fff;}
+	.header ul li a{color: #323232;}
+	.li_bottom{border-bottom: 0.2rem solid #FCD019;}
+
+	.con{margin-top: 5rem;}
+	.con .icon_logo{width: 5.23rem;margin: 1.71rem auto 0;}
+	.con h6{text-align: center;font-size: 1rem;color: #0B0B0B;line-height: 3.71rem;}
+	.con button{width: 6.64rem;height: 1.78rem;border:0.05rem solid #FED324;color: #FED324;border-radius: 0.17rem;margin: 0 auto;display: block}

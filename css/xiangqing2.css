@@ -1,0 +1,49 @@
+body{background-color: #fff;}
+
+		.con_zz{width: 100%;height: 100%;position: fixed;z-index: 5;background-color: rgba(0,0,0,0.5);display: none}
+		.cur{display: block;}
+		.con_zz .alert{width: 16.7rem;height: 22.07rem;margin: 10.5rem auto 0;background-color: #fff;box-sizing: border-box;padding-top: 2.21rem;border-radius: 0.5rem;}
+		.con_zz .alert img{width: 4.1rem;margin: 0 auto 2.21rem;}
+		.con_zz .alert h1{font-size: 0.93rem;color: #202020;text-align: center;line-height: 1rem;}
+		.con_zz .alert p{text-align: center;font-size: 0.72rem;line-height: 1rem;color: #3D3D3D;padding-top: 1rem;}
+		.con_zz .alert input[type=text]{width: 10.43rem;height: 1.42rem;border: 0.09rem solid #BCBCBC;border-radius: 0.3rem;margin: 1rem auto 0;display: block;font-size: 0.57rem;color: #202020;text-align: center;}
+		.con_zz button{width: 4.61rem;height: 1.5rem;border-radius: 0.2rem;border: none;font-size: 0.79rem;}
+		.con_zz .cancel{border: 0.09rem solid #202020;margin-left: 3.14rem;}
+		.con_zz .sure{background-color: #FCD019;margin-left: 1.14rem;color: #fff;}
+
+
+
+.banner{width: 100%;height: auto;position: relative}
+.banner img{width: 100%;}
+.banner .zz{width: 100%;height: 1.61rem;background-color: rgba(0,0,0,0.6);position: absolute;bottom: 0;}
+.banner .zz p{font-size: 0.72rem;line-height: 1.61rem;color: #DEDEDE;text-align: center;}
+	
+.sign{width:100%;height: 7.5rem;border-bottom: 0.1rem solid #EEEEEE;box-sizing: border-box;padding:1.51rem 0.89rem 0;}
+.sign p{font-size: 1.21rem;color: #101010;}
+.sign p .span_1{color: #E74751;font-size: 1.01rem;}
+.sign ul{display: flex;justify-content: center;width: 100%;}
+.sign ul li{width: 33%;text-align: left;font-size: 0.82rem;color: #A0A0A0;}
+		
+.guige{width: 100%;height: 2.78rem;border-bottom: 0.1rem solid #EEEEEE;position: relative;}
+.guige p{font-size: 0.96rem;color: #353535;line-height: 2.78rem;box-sizing: border-box;padding-left: 0.89rem;}
+.guige button{position: absolute;top: 0;right: 0.89rem;font-size: 0.96rem;height: 2.78rem;color: #B9B9B9;border: none;background-color: transparent;}
+		
+.liyou{width: 100%;height: 6.73rem;border-bottom: 0.1rem solid #EEEEEE;box-sizing: border-box;padding: 1rem 0.89rem 0;}
+.liyou h3{font-size: 0.96rem;color: #353535;}
+.liyou p{font-size: 0.82rem;color: #6A6A6A;line-height: 1.2rem;padding-top: 0.4rem;}
+		
+.pingjia{width: 100%;height: auto;border-bottom: 0.1rem solid #EEEEEE;box-sizing: border-box;padding: 1rem 0.89rem;}
+.pingjia h3{font-size: 0.96rem;color: #353535;}
+.pingjia ul{display: flex;justify-content: center;width: 100%;margin-top: 1rem;}
+.pingjia ul li{width: 30%;margin: 0 1%;position: relative;}
+.pingjia ul li .tu{width: 100%;}
+.pingjia ul li h5{font-size: 0.72rem; color: #616161;text-align: center;line-height: 1.42rem;}
+.pingjia ul li .toux{width: 2.21rem;margin-top: 0.43rem;}
+.pingjia ul li p{position: absolute;left: 46%;top:8.8rem;font-size: 0.72rem;color: #616161;}
+		
+.shangla{width: 100%;height: 2.36rem;border-bottom: 0.1rem solid #EEEEEE;}
+.shangla p{text-align: center;line-height: 2.36rem;font-size: 0.78rem;color: #616161;}
+
+.footer{width: 100%;height: 3.5rem;border-top: 0.1rem solid #EEEEEE;border-bottom: 0.1rem solid #EEEEEE;margin-top: 1.14rem;position: relative;}
+.footer button{position: absolute;width: 30%;height: 100%;font-size: 0.78rem;color: #fff;}
+.footer .tixing{right: 0;background-color: #FCD019;}

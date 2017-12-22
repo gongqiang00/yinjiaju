@@ -1,0 +1,18 @@
+.bg{position: relative;}
+.yi a p{font-size: 2rem; color: #000; position: absolute; bottom: 5rem; left:29%}
+
+.er a .bt{position: absolute; width: 100%; top: 3rem;}
+.er a .bt .top{width: 9rem; height: 2.68rem; background-color: #FCDF55; line-height: 2.68rem; text-align: center;font-size: 1.36rem; color: #fff; margin: 0 auto;}
+.er a .bt .bottom{width: 100%;margin-top: 1.5rem; text-align: center;font-size: 1.36rem; color: #fff;}
+.er a .bt .tu{display: block; width: 71%;margin: 2rem auto 0;}
+
+.san a .bt{position: absolute; width: 100%; top: 3rem;}
+.san a .bt .top{font-size: 2.03rem; color: #000; text-align: center;}
+.san a .bt .top_1{font-size: 1.18rem; color: #B4B4B4; text-align: center;margin-top: 2.5rem;}
+.san .btn{position: absolute;bottom: 3rem; width: 100%;}
+.san .btn .btn1{width: 17.17rem; height: 3.07rem; background-color: #000; margin: 0 auto 0;}
+.san .btn .btn1 a{display: block; font-size: 1.25rem;text-align: center;line-height: 3.07rem; color: #fff;}
+.san .btn .btn2{width: 17.17rem; height: 3.07rem; background-color: #FCDF55; margin: 1.2rem auto 0;}
+.san .btn .btn2 a{display: block ;font-size: 1.25rem;text-align: center;line-height: 3.07rem; color: #fff;}
+
+

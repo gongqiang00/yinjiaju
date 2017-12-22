@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Hello MUI</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+		<!--标准mui.css-->
+		<link rel="stylesheet" href="css/mui.min.css">
+		<link rel="stylesheet" type="text/css" href="css/icons-extra.css" />
+			<link rel="stylesheet" href="css/base.css" type="text/css" />
+		<link rel="stylesheet" href="css/xiangqing1.css" type="text/css" />
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript" charset="utf-8">
+			mui.init({
+				swipeBack:true //启用右滑关闭功能
+			});
+			var slider = mui("#slider");
+			document.getElementById("switch").addEventListener('toggle', function(e) {
+				if (e.detail.isActive) {
+					slider.slider({
+						interval: 5000
+					});
+				} else {
+					slider.slider({
+						interval: 0
+					});
+				}
+			});
+		</script>
+
+	</head>
+
+	<body>
+	
+		<div id="slider" class="mui-slider" >
+			<div class="mui-slider-group mui-slider-loop">
+				<!-- 额外增加的一个节点(循环轮播：第一个节点是最后一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="img/xiangqing1.png">
+					</a>
+				</div>
+				<!-- 第一张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/xiangqing1.png">
+					</a>
+				</div>
+				<!-- 第二张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/xiangqing1.png">
+					</a>
+				</div>
+				<!-- 第三张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/xiangqing1.png">
+					</a>
+				</div>
+				<!-- 第四张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/xiangqing1.png">
+					</a>
+				</div>
+				<!-- 第五张 -->
+				<div class="mui-slider-item">
+					<a href="#">
+						<img src="img/xiangqing1.png">
+					</a>
+				</div>
+				<!-- 额外增加的一个节点(循环轮播：最后一个节点是第一张轮播) -->
+				<div class="mui-slider-item mui-slider-item-duplicate">
+					<a href="#">
+						<img src="img/xiangqing1.png">
+					</a>
+				</div>
+			</div>
+			<a class="back mui-icon mui-icon-arrowleft" onclick="back1()"></a>
+			<div class="mui-slider-indicator">
+				<div class="mui-indicator mui-active"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+				<div class="mui-indicator"></div>
+			</div>
+		</div>
+		<div class="sign">
+			<p>Fres 西班牙设计师 花瓶<br><span class="span_1">￥98-120</span></p>
+			<ul class="flex">
+				<li><span class="mui-icon mui-icon-help"></span>欧美质量标准</li>
+				<li><span class="mui-icon mui-icon-help"></span>24小时快速发货</li>
+				<li><span class="mui-icon mui-icon-help"></span>30天无忧退货</li>
+			</ul>
+		</div>
+		<div class="guige">
+			<p>规格数量</p>
+			<button>+</button>
+		</div>
+		<div class="liyou">
+			<h3>推荐理由</h3>
+			<p>出口美国、欧洲。表面瓷质柔和，光泽度好，高度适中，设计感较好，搭配鲜花摆放茶几、餐桌或床头都不显突兀，为居室添一份生机。</p>
+		</div>
+		<div class="pingjia">
+			<h3>晒图评价</h3>
+			<ul class="flex">
+				<li>
+					<img src="img/jiashi_img2.jpg" class="tu" />
+					<span class="tit">超级漂亮 棒棒哒</span>
+					<img src="img/find_toux2.png" class="toux"/>
+					<p class="name">阿拉蕾</p>
+				</li>
+					<li>
+					<img src="img/jiashi_img2.jpg" class="tu" />
+					<span class="tit">超级漂亮 棒棒哒</span>
+					<img src="img/find_toux2.png" class="toux"/>
+					<p class="name">阿拉蕾</p>
+				</li>
+					<li>
+					<img src="img/jiashi_img2.jpg" class="tu" />
+					<span class="tit">超级漂亮 棒棒哒</span>
+					<img src="img/find_toux2.png" class="toux"/>
+					<p class="name">阿拉蕾</p>
+				</li>
+			</ul>
+		</div>
+		<div class="shangla">
+			<p><span class="mui-icon mui-icon-help"></span>上拉查看图文详情</p>
+		</div>
+		<div class="goumai_zz">
+			<ul>
+				<li>
+					<img src="img/jiashi_img2.jpg" class="tu" />
+				</li>
+				<li>
+					<span class="span_1">￥19</span><br>
+					<p class="xuan">已选：颜色随机</p>
+					<div class="mui-numbox" data-numbox-min='1'>
+						<button class="mui-btn mui-btn-numbox-minus" type="button">-</button>
+						<input id="test" class="mui-input-numbox" type="number" value="1" />
+						<button class="mui-btn mui-btn-numbox-plus" type="button">+</button>
+					</div>
+				</li>
+			</ul>
+			<button class="close">×</button>
+		</div>
+		<div class="footer">
+			<a class="mui-icon-extra mui-icon-extra-custom erji"></a>
+			<a href="myCar.html" class="mui-icon-extra mui-icon-extra-cart car"></a>
+			<button class="gouwuche">加入购物车</button>
+			<a href="wirte_dingdan.html"><button class="goumai" >立即购买</button></a>
+		</div>
+
+	<script>
+		$(function(){
+			$(".footer .gouwuche").click(function(){
+				$(this).parents(".footer").siblings(".goumai_zz").addClass("cur");
+			});
+			$(".goumai_zz .close").click(function(){
+				$(this).parent(".goumai_zz").removeClass("cur");
+			});
+		});
+
+		function back1(){
+			window.history.back();
+		}
+
+
+
+	</script>
+	</body>
+</html>

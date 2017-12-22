@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title>我的</title>
+	    
+	    
+	    <link href="css/mui.min.css" rel="stylesheet"/>
+	    <link rel="stylesheet" href="css/base.css" type="text/css" />
+		<link rel="stylesheet" href="css/setting.css" type="text/css" />
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+	    <script src="js/mui.min.js"></script>
+	    <script type="text/javascript" charset="utf-8">
+	      	mui.init();
+	    </script>
+<style>
+	.header{height: 3.28rem;width: 100%;background-color: #FFF;}
+	.header h1{text-align: center;font-size: 1.14rem;line-height: 3.28rem;color: #0E0E0E;}
+	.header .back{position: absolute;top: 1rem;left:0.6rem;color: #353535;}
+	
+	.con{margin-top: 1rem;}
+	.con ul li{height: 3.64rem;line-height: 3.64rem;border-bottom: 0.1rem solid #EEEEEE;background-color: #fff;padding-left: 0.8rem;font-size: 1rem;color: #1E1E1E;position: relative;}
+	.con ul li a{color: #1E1E1E;position: absolute;line-height: 3.64rem;right:0.8rem}
+	.con ul li:nth-child(1){height: 6.14rem;line-height: 6.14rem;}
+	.con ul li:nth-child(1) a{line-height: 6.14rem;}
+	
+	.con button{width: 100%;display: block;height: 3.64rem;margin-top: 1rem;font-size: 1rem;color: #1E1E1E;background-color: #fff;}
+</style>
+	<body>
+		<div class="mui-content">
+			<div class="header">
+				<h1>设置</h1>
+				<a class="mui-icon mui-icon-arrowleft back" onclick="back1()"></a>
+			</div>
+			<div class="con">
+				<ul>
+					<li>头像<a class="mui-icon mui-icon-arrowright"></a></li>
+					<li>修改用户名<a class="mui-icon mui-icon-arrowright"></a></li>
+					<li>更换手机号<a class="mui-icon mui-icon-arrowright"></a></li>
+					<li>版本信息<a class="mui-icon mui-icon-arrowright"></a></li>
+					<li>清除缓存<a class="mui-icon mui-icon-arrowright"></a></li>
+					<li>意见反馈<a class="mui-icon mui-icon-arrowright"></a></li>
+					<li>服务条款及隐私政策<a class="mui-icon mui-icon-arrowright"></a></li>
+				</ul>
+				<button>退出登录</button>
+			</div>
+				
+		</div>
+
+	<script>
+		function back1(){
+			window.history.back();
+		}
+	</script>
+	</body>
+</html>

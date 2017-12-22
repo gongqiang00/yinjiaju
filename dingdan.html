@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>我的订单</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	
+
+		<!--标准mui.css-->
+	
+   		
+
+		<script src="js/mui.min.js"></script>
+   		<link href="css/mui.min.css" rel="stylesheet"/>
+   		<link rel="stylesheet" href="css/base.css" type="text/css" />
+		<link rel="stylesheet" href="css/dingdan.css" type="text/css" />
+   		<script src="js/jquery-3.2.1.min.js"></script>
+    	<script type="text/javascript" charset="utf-8">
+      		mui.init();
+    	</script>
+
+	</head>
+
+	<body>
+
+			<div class="header">
+				<h5>我的订单</h5>
+				<a onclick="back1()" class="back"><span class="mui-icon mui-icon-arrowleft"></span></a>
+				<ul>
+					<li class="li_bottom"><a href="#">全部</a></li>
+					<li><a href="#">待付款</a></li>
+					<li><a href="#">待发货</a></li>
+					<li><a href="#">已发货</a></li>
+					<li><a href="#">已完成</a></li>
+				</ul>
+			</div>
+			<div class="con">
+				<img src="img/icon_logo.png" class="icon_logo"/>
+				<h6>最近都没有剁手哦</h6>
+				<a href="a.html"> <button>快去商场剁手</button></a>
+			</div>
+			
+			
+		
+	<script>
+		$(function(){
+			$(".header ul li").click(function(){
+				$(this).addClass("li_bottom").siblings("li").removeClass("li_bottom");
+			});
+		});
+
+		function back1(){
+			window.history.back();
+		}
+	</script>
+	</body>
+</html>

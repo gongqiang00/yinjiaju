@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    	<meta name="apple-mobile-web-app-capable" content="yes" />
+    	<meta name="full-screen" content="yes" />
+    	<meta name="x5-fullscreen" content="true">
+
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<link href="css/base.css" rel="stylesheet" type="text/css"/>
+		<link href="css/zhaop.css" rel="stylesheet" type="text/css"/>
+		<link href="css/icons-extra.css" rel="stylesheet" type="text/css" />
+		<script src="js/jquery-3.2.1.min.js" type="text/javascript"></script>
+		
+
+	</head>
+
+	<body>
+		<div class="zz">
+			<div class="kuang">
+				<div class="tu">
+					<img src="img/find_con1.jpg">
+					<div class="sanj"></div>
+				</div>
+				<div class="zi">By Peter</div>
+				<div class="day">2017-07-02</div>
+			</div>
+			<div class="kuang1 jianr">
+				<div class="yi">
+					<div class="yuan mui-icon mui-icon-weixin"></div>
+					<a href="#"><div class="zi">微信好友</div></a>
+				</div>
+				<div class="yi">
+					<div class="yuan mui-icon mui-icon-pengyouquan"></div>
+					<a href="#"><div class="zi">朋友圈</div></a>
+				</div>
+			</div>
+		</div>
+		<div class="header">
+			<a href="#" class="mui-icon mui-icon-arrowleft fanh jianr"></a>
+			<div class="zi">照片</div>
+			<div class="gengd">···</div>
+		</div>
+		<div class="bg">
+			<div class="xk">居家</div>
+		</div>
+		<div class="riq">发布与2017-07-02</div>
+		<div class="xinx">
+			<img class="toux" src="img/find_toux1.png">
+			<div class="name">Peter</div>
+			<div class="zan">40件作品/946次被赞</div>
+		</div>
+		
+		<div class="footer">
+			<a href="#" class="zan mui-icon-extra mui-icon-extra-like"></a>
+			<a href="#" class="shouc mui-icon mui-icon-star-filled"></a>
+			<a href="#" class="fenx mui-icon-extra mui-icon-extra-share"></a>
+		</div>
+		
+	
+		<script src="js/mui.min.js"></script>
+		<script type="text/javascript">
+			mui.init()
+		</script>
+		<script>
+			$(".zan").click(function(){
+				$(".zan").toggleClass("color")
+			});
+			$(".shouc").click(function(){
+				$(".shouc").toggleClass("color")
+			});
+			
+			$(".fenx").click(function(e){
+				e.stopPropagation();
+				$(".zz").toggle();
+			});
+			$(document).click(function(){
+				$(".zz").hide();
+			});
+		</script>
+	</body>
+
+</html>

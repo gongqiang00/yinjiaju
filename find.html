@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title>发现</title>
+	    
+	    <link rel="stylesheet" href="css/base.css" type="text/css" />
+		<link rel="stylesheet" href="css/find.css" type="text/css" />
+	    <link href="css/mui.min.css" rel="stylesheet"/>
+
+		<script src="js/jquery-3.2.1.min.js"></script>
+	    <script src="js/mui.min.js"></script>
+	    <script type="text/javascript" charset="utf-8">
+	      	mui.init();
+	    </script>
+	<body>
+	
+		<div class="mui-content">
+		    <div class="header">
+				<ul class="flex">
+					<li class="li_bottom"><a href="#">最佳</a></li>
+					<li><a href="#">最新</a></li>
+				</ul>
+				<button class="all" id="all">全部</button>
+				<span class="mui-icon mui-icon-camera"></span>
+			</div>
+			<div class="find_zz">
+				<h5>所有分类</h5>
+				<ul>
+					<li><a href="#">全部</a></li>
+					<li><a href="#">居家</a></li>
+					<li><a href="#">空间</a></li>
+					<li><a href="#">设计</a></li>
+					<li><a href="#">美食</a></li>
+					<li><a href="#">旅行</a></li>
+					<li><a href="#">下午茶</a></li>
+					<li><a href="#">建筑</a></li>
+				</ul>
+			</div>
+		
+			<div class="con">
+				<a href="zhaop.html">
+					<div class="find_con peter">
+						<div class="zz">
+							<img src="img/find_toux1.png" />
+							<p>Peter<br>&nbsp;&nbsp;<span>保密</span></p>
+						</div>
+					</div>
+				</a>
+				
+					<div class="find_con jessics">
+						<div class="zz">
+							<img src="img/find_toux2.png" />
+							<p>Jessics<br>&nbsp;&nbsp;<span>85后</span></p>
+						</div>
+					</div>
+				
+				
+					<div class="find_con peter">
+						<div class="zz">
+							<img src="img/find_toux1.png" />
+							<p>Peter<br>&nbsp;&nbsp;<span>保密</span></p>
+						</div>
+					</div>
+				
+			</div>
+		</div>
+		<script>
+			$(function(){
+				$(".all").click(function(e){
+					e.stopPropagation();
+					$(".find_zz").slideToggle(400);
+				});
+
+				$(document).click(function(){
+					$(".find_zz").slideUp(400);
+				});
+
+				$(".header ul li").click(function(){
+					$(this).addClass("li_bottom").siblings("li").removeClass("li_bottom");
+				});
+
+
+			});
+		</script>
+	</body>
+</html>

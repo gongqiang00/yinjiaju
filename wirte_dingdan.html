@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>我的订单</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+	
+
+		<!--标准mui.css-->
+	
+   		
+
+		<script src="js/mui.min.js"></script>
+   		<link href="css/mui.min.css" rel="stylesheet"/>
+   		<link rel="stylesheet" href="css/base.css" type="text/css" />
+		<link rel="stylesheet" href="css/wirte_dingdan.css" type="text/css" />
+   		<script src="js/jquery-3.2.1.min.js"></script>
+    	<script type="text/javascript" charset="utf-8">
+      		mui.init();
+    	</script>
+<style>
+.price{text-align: right;font-size: 1rem;line-height: 3.5rem;color: #1E1E1E;border-top: 0.1rem solid #EEEEEE;height: 3.5rem;width: 100%;position: absolute;bottom: 0;}
+.price .span_1{color: #E74751;}
+.price button{height: 3.5rem;width: 8.07rem;background-color: #FCD019;color: #5B5F60;}
+</style>
+	</head>
+
+	<body>
+
+			<div class="header">
+				<h5>填写订单</h5>
+				<a onclick="back1()" class="back"><span class="mui-icon mui-icon-arrowleft"></span></a>
+				<p>收货地址<a href="address.html">请填写收货地址<span class="mui-icon mui-icon-arrowright"></span></a></p>
+			</div>
+			<div class="con_message">
+				<ul>
+					<li>选择优惠券<a href="#">0张可用<span class="mui-icon mui-icon-arrowright"></span></a></li>
+					<li>商品合计<a href="#">￥289<span class="mui-icon mui-icon-arrowright"></span></a></li>
+					<li>运费<a href="#">￥5<span class="mui-icon mui-icon-arrowright"></span></a></li>
+				</ul>
+			</div>
+			<div class="con_bottom">
+				<ul>
+					<li>
+						<img src="img/jiashi_img2.jpg" class="tu" />
+					</li>
+					<li>
+						<p class="xuan">Fres 西班牙设计师 花瓶<br><span>颜色随机</span></p>
+						<span class="span_1">￥19</span><br>
+					</li>
+				</ul>
+				<form class="moren">
+					<div class="mui-input-row mui-checkbox mui-left bg">
+						<label>我已同意《优家购物平台协议》</label>
+						<input name="checkbox"type="checkbox" >
+					</div>
+				</form>
+			</div>
+			<div class="price">
+				<p>实付：<span class="span_1">￥29</span>&nbsp;&nbsp;&nbsp;<button>立即付款</button></p>
+			</div>
+	<script>
+		
+		function back1(){
+			window.history.back();
+		}
+	</script>
+	</body>
+</html>

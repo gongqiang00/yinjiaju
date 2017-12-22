@@ -1,0 +1,17 @@
+.bg{width: 100%; height: 41.7rem; background: url(../img/denglu_bg.jpg) no-repeat; background-size: 100%; padding-top: 6rem; box-sizing: border-box}
+.bg .logo{width: 8.46rem; height: 2.93rem; margin: 0 auto 0; background: url(../img/denglu_1.png) no-repeat; background-size: 100%;}
+.bg .name{width: 72%;height: 2.8rem;margin: 0 auto;border-bottom: 0.1rem solid white;margin-top:3rem;}
+.bg .name .t{font-size: 2.5rem;color: white;height: 2.8rem;}
+.bg .password{width: 72%;height: 2.8rem;margin: 0 auto;border-bottom: 0.1rem solid white;margin-top: 1rem;}
+.bg .password .t{font-size: 2.5rem;color: white;height: 2.8rem;}
+input[type=text]{width: 83%; background-color: transparent;border: none;height: 2.2rem;}
+input[type=password]{width: 83%; background-color: transparent;border: none;height: 2.2rem;}
+.bg a{display: inline-block; color: white;}
+.bg .jzmm{margin-left: 4.1rem;}
+.bg .wjmm{margin-left: 7.1rem;}
+.bg button{width: 19.7rem; height: 3.28rem;border-radius: 2rem;margin:3rem 0 0 2rem;background-color: #FADD21;border: none; font-size: 1.36rem;color: white;}
+.bg .dsf{width: 100%;text-align: center;margin-top: 2.5rem; font-size: 1rem;color: white;}
+.bg .qq{display: inline-block;font-size: 2rem;height: 3rem;margin-left: 6.4rem;margin-top: 1.5rem;}
+.bg .wb{display: inline-block;font-size: 2.8rem;height: 3rem;margin-left: 2rem;}
+.bg .wx{display: inline-block;font-size: 2.2rem;height: 3rem;margin-left: 2rem;}
+.bg .zhuc{display: block;width: 100%;text-align: center;margin-top: 1.5rem;color:white}

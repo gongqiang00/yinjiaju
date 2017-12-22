@@ -1,0 +1,24 @@
+	body{background-color: #fff;}
+	.header{height: auto;background-color: #fff;border-bottom: 0.05rem solid #EEEEEE;position: relative;}
+	.header h5{text-align: center;font-size: 1.14rem;line-height: 2.78rem;color: #171717;}
+	.header a.back{color: #171717;position: absolute;top: 0;line-height: 2.78rem;font-size: 1.14rem;left: 0.3rem;}
+	.header h6{font-size: 0.81rem;color: #171717;line-height: 2.78rem;position: absolute;right: 0.5rem;top: 0;}
+	.header p{padding-left: 0.8rem;font-size: 1rem;line-height: 3.5rem;color: #1E1E1E;}
+	.header p a{position: absolute;right:0.3rem;line-height: 3.5rem;color: #8F8F8F;}
+	
+	.con_message{border-top: 0.5rem solid #EEEEEE;border-bottom: 0.5rem solid #EEEEEE;}
+	.con_message ul li{height: 3.5rem;line-height: 3.5rem;font-size: 1rem;color: #1E1E1E;padding-left: 0.8rem;border-bottom: 0.1rem solid #EEEEEE;background-color: #fff;position: relative;}
+	.con_message ul li a{position: absolute;right:0.3rem;line-height: 3.5rem;color: #8F8F8F;}
+
+.con_bottom ul{display: flex;justify-content: flex-start;padding-bottom: 1.21rem;}
+.con_bottom ul li{position: relative;padding-left: 1.2rem;padding-top: 1.21rem;}
+.con_bottom ul li img{width: 6.86rem;}
+.con_bottom ul li .span_1{font-size: 0.85rem;line-height: 1.2rem;color: #393939;}
+
+.con_bottom ul li p.xuan{font-size: 1rem;line-height: 1rem;color: #353535;}
+.con_bottom ul li p.xuan span{font-size: 0.82rem;color: #ACACAC;line-height: 3.5rem;}
+
+	.moren{height: 3.5rem;font-size: 1rem;line-height: 3.5rem;border-top: 0.1rem solid #EEEEEE;}
+	.moren input[type=checkbox]{margin-top: 0.6rem}
+	.moren label{border: none}
+	.moren .bg{background-color: #fff;}

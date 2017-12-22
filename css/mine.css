@@ -1,0 +1,19 @@
+body{background-color: #EEEEEE;}
+.mine_top .shezhi{position: absolute;top: 1rem;left:0.6rem;color: #353535;}
+.mine_top{width: 100%;height: 15.54rem;background: url("../img/mine_bg.jpg") no-repeat center/100% 100%;position: relative;}
+.mine_top .toux{width: 100%;height: auto;padding: 1.2rem;}
+.mine_top .toux img{width: 24%;margin: 0 auto;}
+.mine_top h5{text-align: center;font-size: 0.93rem;color: #101010;line-height: 3.21rem;}
+.mine_top ul{display: flex;justify-content: center;width: 100%;}
+.mine_top ul li{width: 20%;height: 3rem;text-align: center;font-size: 1.07rem;}
+.mine_top ul li:nth-child(1){border-right: 0.1rem solid #6C6C6C;}
+
+.mine_middle{width:100%;height: 9.93rem;background-color: #fff;margin: 1rem auto;}
+.mine_middle p{font-size: 1.07rem;color: #000;padding: 1.26rem 1rem 1.03rem 1rem;position: relative;width: 100%;border-bottom: 0.1rem solid #EEEEEE;}
+.mine_middle p a{color: #4B4B4B;position: absolute;right: 1rem;}
+.mine_middle ul{padding: 0 1rem;margin: 0.54rem auto;width: 100%;display: flex;justify-content: center;}
+.mine_middle ul li{width: 25%;height: 6.61rem;text-align: center;font-size: 0.86rem;color: #313131;}
+
+.mine_bottom{width: 100%;height: auto;background-color: #fff;}
+.mine_bottom p{font-size: 1.07rem;color: #000;padding: 1.26rem 1rem 1.03rem 1rem;position: relative;width: 100%;border-bottom: 0.1rem solid #EEEEEE;}
+.mine_bottom p a{color: #4B4B4B;position: absolute;right: 1rem;}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	    <title>分类</title>
+	    
+	    <link rel="stylesheet" href="css/base.css" type="text/css" />
+		<link rel="stylesheet" href="css/jiashi.css" type="text/css" />
+	    <link href="css/mui.min.css" rel="stylesheet"/>
+		<script src="js/jquery-3.2.1.min.js"></script>
+	    <script src="js/mui.min.js"></script>
+	  
+	    <script type="text/javascript" charset="utf-8">
+	      	mui.init();
+	    </script>
+	
+	<body>
+		<div class="mui-content">
+			<div class="header">
+				<h1></h1>
+				<div class="mui-input-row mui-search search">
+					<a href="search.html"><input type="search" class="mui-input-clear" placeholder="商品名、品牌、设计师" disabled="disabled"></a>
+				</div>
+    			<p class="message"><a class="mui-icon mui-icon-chat" href="message.html"></a></p>
+    			<ul class="jianr">
+		    		<li><a href="main.html">推荐</a></li>
+		    		<li class="li_bottom"><a href="#">家饰</a></li>
+		    		<li><a href="#">收纳</a></li>
+		    		<li><a href="#">餐厨</a></li>
+		    		<li><a href="#">家纺</a></li>
+	    		</ul>
+			</div>
+			<div class="jiashi_con">
+				<img src="img/jiashi_banner.jpg" />
+				<ul class="jianr">
+					<li>
+						<img src="img/jiashi_img1.jpg" />
+						<p>Fres 西班牙设计师 花瓶<br><span class="span_1">￥98</span></p>
+					</li>
+					
+					<li>
+							<a href="xiangqing1.html"><img src="img/jiashi_img2.jpg" /></a>
+							<a href="xiangqing1.html"><p>新款简约黑白陶瓷花瓶<br><span class="span_1">￥98</span></p></a>
+					</li>
+					<li>
+						<img src="img/jiashi_img3.jpg" />
+						<p>欧式海洋之星铁艺烛台<br><span class="span_1">￥98</span></p>
+					</li>
+					<li>
+						<img src="img/jiashi_img4.jpg" />
+						<p>现代简约 陶瓷花瓶 啞光纯白<br><span class="span_1">￥98</span></p>
+					</li>
+				</ul>
+			</div>
+			
+		</div>
+		<script>
+			$(function(){
+				$(".header ul li").click(function(){
+					$(this).addClass("li_bottom").siblings("li").removeClass("li_bottom");
+				});
+			})
+		</script>
+	</body>
+</html>
